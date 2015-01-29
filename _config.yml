@@ -1,0 +1,44 @@
+# _config.yml - thealternativeweddinggroup.co.uk
+
+# Server Config
+
+safe: true
+
+source: ./web
+destination: ./_site
+safe: true
+
+timezone: Europe/London
+encoding: "utf-8"
+
+future: false
+
+## Conversion
+
+markdown: kramdown
+highlighter: pygments
+lsi: false
+excerpt_separator: "\n\n"
+
+## Backwards-compatibility
+relative_permalinks: false
+
+# Site Config
+
+name: Birmingham Post Business Awards 2014
+
+url:
+static: /static
+media: /media
+
+## Analytics
+
+google_analytics_id:
+
+## Meta
+
+meta:
+  author: author
+  description: ""
+  keywords:
+    - "Alternative Wedding Group"
