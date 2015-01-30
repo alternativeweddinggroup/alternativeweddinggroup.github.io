@@ -187,7 +187,7 @@ small,
   font-size: @small--font-size;  //  Addresses inconsistent and variable font size in all browsers.
   line-height: @small--line-height;
 }
-
+*/
 //
 //  Body Copy
 //
@@ -274,7 +274,7 @@ address {
 //
 //  Addresses styling not present in IE7/8/9, S5, Chrome
 //
-
+/*
 blockquote, q {
   quotes: none;
   position: relative;
@@ -310,9 +310,7 @@ cite {
   font-weight: normal;
   font-style: normal;
 }
-
-
-
+*/
 @media print {
 
   pre,
@@ -350,7 +348,7 @@ pre,
 code,
 kbd,
 samp {
-  font-family: @code__font-family;
+  font-family: $code__font-family;
 }
 
 code, pre {
@@ -361,7 +359,7 @@ code, pre {
   background-color: #f7f7f9;
   font-size: 0.75em;
   font-weight: 600;
-  color: @body__color;
+  color: $body__color;
 }
 
 code {
@@ -390,4 +388,4 @@ kbd {
   font-weight: normal;
   line-height: 90%;
 }
-*/
+
