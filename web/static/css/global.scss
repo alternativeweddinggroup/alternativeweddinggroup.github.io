@@ -1,0 +1,33 @@
+---
+---
+/*!
+ * Global CSS - The Alternative Wedding Group
+ *
+ * Created by Trinity Mirror Creative
+ */
+
+//  Base
+
+//@import 'fonts';
+//@import 'variables';
+
+//  Objects
+
+//  @import 'objects/_object-name';
+
+.clear { clear: both; }
+
+//  To extend the styling of these objects, create a folder called
+//  styles to store the less files and import below under the
+//  Styling header
+
+//  Styling
+
+//@import 'grid';
+
+//  Core
+//  Placed at the end as most of these classes will overwrite others.
+
+@import 'core';
+//@import 'print';
+
