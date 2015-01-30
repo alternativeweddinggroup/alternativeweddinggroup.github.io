@@ -19,7 +19,7 @@
 
 //  Objects
 
-//  @import 'objects/_object-name';
+@import 'objects/menu';
 
 .clear { clear: both; }
 
@@ -29,7 +29,8 @@
 
 //  Styling
 
-//@import 'grid';
+@import 'styles/navigation';
+@import 'styles/grid';
 
 //  Core
 //  Placed at the end as most of these classes will overwrite others.

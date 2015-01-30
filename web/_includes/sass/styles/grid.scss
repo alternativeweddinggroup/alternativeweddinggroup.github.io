@@ -2,6 +2,10 @@
  * Grid System
  */
 
+.wrapper {
+  width: 100%;
+}
+
 .wrapper__sub {
   display: -webkit-box;
   display: -webkit-flex;
@@ -11,6 +15,11 @@
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  // Center within parent
+  margin-right: auto;
+  margin-left: auto;
+  // Set max width of page
+  max-width: 1024px;
 }
 
 .separator {

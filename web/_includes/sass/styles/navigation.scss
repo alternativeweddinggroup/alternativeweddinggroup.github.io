@@ -1,0 +1,15 @@
+/* Navigation */
+
+.nav__main {
+  background: $brand--purple;
+  text-align: right;
+}
+
+.nav__main a {
+  padding: 0 1rem;
+  font-size: 1.25rem;
+  font-family: $heading__font-family;
+  line-height: 3rem;
+  text-transform: uppercase;
+  color: $brand--gold;
+}
