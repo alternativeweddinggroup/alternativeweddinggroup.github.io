@@ -17,7 +17,7 @@ future: false
 
 sass:
   sass_dir: "_includes/sass"
-  style: :compressed
+#  style: :compressed
 
 ## Conversion
 

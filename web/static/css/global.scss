@@ -8,8 +8,14 @@
 
 //  Base
 
-//@import 'fonts';
-//@import 'variables';
+@import 'font';
+@import 'variable';
+
+@import 'base/layout';
+@import 'base/typography';
+@import 'base/media';
+@import 'base/form';
+@import 'base/table';
 
 //  Objects
 
@@ -28,6 +34,6 @@
 //  Core
 //  Placed at the end as most of these classes will overwrite others.
 
-@import 'core';
-//@import 'print';
+@import 'base/core';
+@import 'base/print';
 
