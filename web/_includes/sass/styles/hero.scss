@@ -1,0 +1,69 @@
+/**
+ * Hero
+ */
+
+.hero {
+  // Fixes hero image being squashed as small scree sizes
+  //clear: both;
+  border-bottom: 12px solid $brand--gold;
+  background: $brand--grey;
+}
+
+.hero__content {
+  position: relative;
+}
+
+.hero__copy {
+  height: 100%;
+}
+
+  .hero__copy .btn {
+    // Remove border radius for hero call to action
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+
+  .block__logo {
+    position: relative;
+    background: $brand--purple;
+    box-shadow: none;
+  }
+
+    .block__logo a {
+      display: block;
+      text-align: center;
+    }
+
+    .block__logo img {
+      width: 9.375rem;
+    }
+
+@media screen and (min-width: 769px) {
+
+  .hero {
+    height: 282px;
+    //border-bottom-color: @brand--green-dark;
+  }
+
+  .hero__copy {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+  }
+
+    .hero__copy .btn {
+      position: absolute;
+      bottom: 0;
+    }
+
+  .block__logo {
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+  }
+
+    .block__logo img {
+      width: 100%;
+    }
+
+}

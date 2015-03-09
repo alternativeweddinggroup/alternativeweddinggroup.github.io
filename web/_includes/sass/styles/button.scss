@@ -1,0 +1,36 @@
+/**
+ * Buttons
+ */
+
+.btn {
+  border-radius: 7.25px;
+  font-family: $heading__font-family;
+  color: $brand--white;
+  text-align: center;
+  text-decoration: none;
+//  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.25);
+}
+
+  .btn:active,
+  .btn:link,
+  .btn:visited {
+    color: $brand--white;
+  }
+
+.btn--primary {
+  background: $brand--gold; /* Old browsers */
+}
+
+  .btn--primary:active,
+  .btn--primary:link,
+  .btn--primary:visited {
+    color: $brand--white;
+  }
+
+.btn__large {
+  font-size: 1.375rem;
+}
+
+.btn__full {
+  width: 100%;
+}

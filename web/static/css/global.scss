@@ -20,6 +20,7 @@
 //  Objects
 
 @import 'objects/menu';
+@import 'objects/button';
 
 .clear { clear: both; }
 
@@ -30,6 +31,8 @@
 //  Styling
 
 @import 'styles/navigation';
+@import 'styles/hero';
+@import 'styles/button';
 @import 'styles/grid';
 
 //  Core

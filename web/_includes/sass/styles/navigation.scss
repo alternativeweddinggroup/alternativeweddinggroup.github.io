@@ -5,8 +5,25 @@
   text-align: right;
 }
 
+.nav__main__list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media screen and (min-width: 481px) {
+
+  .nav__main__list {
+    // Align the menu to the left
+    margin-left: auto;
+  }
+
+}
+
 .nav__main a {
-  padding: 0 1rem;
+  padding: 0 0.75rem;
   font-size: 1.25rem;
   font-family: $heading__font-family;
   line-height: 3rem;

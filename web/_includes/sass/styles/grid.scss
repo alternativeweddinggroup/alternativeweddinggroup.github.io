@@ -18,8 +18,18 @@
   // Center within parent
   margin-right: auto;
   margin-left: auto;
+  // Stop text from touching the edge of the viewport
+  padding: 0 10px;
   // Set max width of page
-  max-width: 1024px;
+  max-width: 1000px;
+  min-width: 300px;
+}
+
+@media screen and (min-width:1000px){
+  .wrapper__sub {
+    // Remove padding once max width is reached
+    padding: 0 0;
+  }
 }
 
 .separator {
@@ -61,9 +71,13 @@
   width: 100%;
 }
 
-.ss-hidden {
-  display: none;
-  visibility: hidden;
+@media screen and (max-width: 480px) {
+
+  .ss-hidden {
+    display: none;
+    visibility: hidden;
+  }
+
 }
 
 @media screen and (min-width: 480px) {
@@ -187,3 +201,4 @@
   }
 
 }
+

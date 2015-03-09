@@ -17,6 +17,22 @@ figure {
   margin: 0;  //  Addresses margin not present in IE 8/9, Safari 5, and Opera 11.
 }
 
+/**
+ *  Make selected images responsive
+ *
+ *  example:
+    <img class="image__responsive" src="http://example.png" alt="">
+ *
+ */
+
+.image__responsive {
+  max-width: 100%;
+}
+
+.image__responsive[src$='.svg'] {
+  height: 100%;
+}
+
 //
 //  Corrects `inline-block` display not defined in IE 8/9 and Firefox 3.
 //
