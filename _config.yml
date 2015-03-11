@@ -4,10 +4,6 @@
 
 safe: true
 
-source: ./web
-destination: ./_site
-safe: true
-
 timezone: Europe/London
 encoding: "utf-8"
 
@@ -16,8 +12,8 @@ future: false
 ## Sass
 
 sass:
-  sass_dir: "_sass"
-#  style: :compressed
+  sass_dir: "_scss"
+  style: :compressed
 
 ## Conversion
 
