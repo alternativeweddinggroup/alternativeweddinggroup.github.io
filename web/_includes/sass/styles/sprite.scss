@@ -1,0 +1,35 @@
+/**
+ *  Sprites
+ */
+
+/**
+ * Category Icons
+ *
+ */
+
+.sprite__social {
+  width: 44px;
+  height: 44px;
+  background-image: url(../gui/sprite_social.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+// Icons within sprites
+
+  .sprite__social--facebook {
+    background-position: 0 0;
+  }
+
+  .sprite__social--instagram {
+    background-position: 0 -44px;
+  }
+
+  .sprite__social--twitter {
+    background-position: 0 -88px;
+  }
+
+  .sprite__social--wordpress {
+    background-position: 0 -132px;
+  }
+
