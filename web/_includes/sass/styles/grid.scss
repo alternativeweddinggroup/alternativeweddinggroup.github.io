@@ -21,13 +21,13 @@
   margin-right: auto;
   margin-left: auto;
   // Stop text from touching the edge of the viewport
-  padding: 0 10px;
+  padding: 0 14.5px;
   // Set max width of page
   max-width: 1000px;
   min-width: 300px;
 }
 
-@media screen and (min-width:1000px){
+@media screen and (min-width:1029px){
   .wrapper__sub {
     // Remove padding once max width is reached
     padding: 0 0;
