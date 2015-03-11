@@ -38,14 +38,13 @@ $code__font-family: Menlo, Monaco, "Courier New", monospace;
 //  Headings
 //
 
-/*@giga--margin: 0;
-@giga--font-size: 11.302em;
-@giga--font-size: 3.998em;
-@giga--font-family: @body__font-family;
-@giga--font-weight: bold;
-@giga--line-height: 1.5em;
-@giga--color: @color--primary;
-
+$giga--margin: 0 0 2rem;
+$giga--font-size: 2.5rem;
+$giga--font-family: $body__font-family;
+$giga--font-weight: normal;
+$giga--line-height: 1.5em;
+$giga--color: $brand--gold;
+/*
 @mega--margin: 0;
 @mega--font-size: 7.993em;
 @mega--font-size: 3.998em;
@@ -60,15 +59,15 @@ $code__font-family: Menlo, Monaco, "Courier New", monospace;
 @kilo--font-family: @body__font-family;
 @kilo--font-weight: bold;
 @kilo--line-height: 1.5em;
-@kilo--color: @color--primary;
+@kilo--color: @color--primary;*/
 
-@h1--margin: 0 0 0.5em;
-@h1--font-size: 4em;
-@h1--font-family: @body__font-family;
-@h1--font-weight: bold;
-@h1--line-height: 1.333em;
-@h1--color: @color--primary;
-
+$h1--margin: 0 0 1rem;
+$h1--font-size: 1.5rem;
+$h1--font-family: $heading__font-family;
+$h1--font-weight: normal;
+$h1--line-height: 1.333em;
+$h1--color: $brand--gold;
+/*
 @h2--margin: 0 0 0.6923em;
 @h2--font-size: 2.4761em;
 @h2--font-family: @body__font-family;

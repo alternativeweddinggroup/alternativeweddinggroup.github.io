@@ -79,22 +79,24 @@ a:focus {
   color: $color--hover;
 }
 
-/*//
+//
 //  Headings
 //  csswizardry.com/2012/02/pragmatic-practical-font-sizing-in-css
 //
 
 h1, .alpha {
-  margin: @h1--margin;
+  display: block;
+  margin: $h1--margin;
   padding: 0;
-  font-family: @h1--font-family;
-  font-size: @h1--font-size;
-  font-weight: @h1--font-weight;
-  line-height: @h1--line-height;
-  color: @h1--color;
+  font-family: $h1--font-family;
+  font-size: $h1--font-size;
+  font-weight: $h1--font-weight;
+  line-height: $h1--line-height;
+  color: $h1--color;
 }
-
+/*
 h2, .beta {
+  display: block;
   margin: @h2--margin;
   padding: 0;
   font-family: @h2--font-family;
@@ -105,6 +107,7 @@ h2, .beta {
 }
 
 h3, .gamma {
+  display: block;
   margin: @h3--margin;
   padding: 0;
   font-family: @h3--font-family;
@@ -115,6 +118,7 @@ h3, .gamma {
 }
 
 h4, .delta {
+  display: block;
   margin: @h4--margin;
   padding: 0;
   font-family: @h4--font-family;
@@ -125,6 +129,7 @@ h4, .delta {
 }
 
 h5, .epsilon {
+  display: block;
   margin: @h5--margin;
   padding: 0;
   font-family: @h5--font-family;
@@ -135,6 +140,7 @@ h5, .epsilon {
 }
 
 h6, .zeta {
+  display: block;
   margin: @h6--margin;
   padding: 0;
   font-family: @h6--font-family;
@@ -142,19 +148,21 @@ h6, .zeta {
   font-weight: @h6--font-weight;
   line-height: @h6--line-height;
   color: @h6--color;
-}
+}*/
 
 .giga {
-  margin: @giga--margin;
+  display: block;
+  margin: $giga--margin;
   padding: 0;
-  font-family: @giga--font-family;
-  font-size: @giga--font-size;
-  font-weight: @giga--font-weight;
-  line-height: @giga--line-height;
-  color: @giga--color;
+  font-family: $giga--font-family;
+  font-size: $giga--font-size;
+  font-weight: $giga--font-weight;
+  line-height: $giga--line-height;
+  color: $giga--color;
 }
-
+/*
 .mega {
+  display: block;
   margin: @mega--margin;
   padding: 0;
   font-family: @mega--font-family;
@@ -165,6 +173,7 @@ h6, .zeta {
 }
 
 .kilo {
+  display: block;
   margin: @kilo--margin;
   padding: 0;
   font-family: @kilo--font-family;
