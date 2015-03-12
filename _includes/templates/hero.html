@@ -1,9 +1,6 @@
 <section class="hero wrapper box">
 
-    <div class="hero__content wrapper__sub">
-    {% if page.hero.image %}
-    <img class="image__responsive ss-hidden" src="{{ site.media }}/hero/{{ page.hero.image }}" alt="{{ page.hero.alt }}">
-    {% endif %}
+    <div class="hero__content wrapper__sub{% if page.hero.image %} hero--image hero--image--{{ page.hero.image }}{% endif %}">
 
     {% if page.hero.copy %}
     <div class="hero__copy ss1-ss4 ms1-ms2 ls1-ls4">
@@ -13,7 +10,7 @@
           <img class="image__responsive" src="{{ site.static }}/gui/logo_alternative-wedding-group.svg" alt="The Alternative Wedding Group">
         </a>
       </div>
-      <a class="btn btn__large btn__full btn--primary" href="{{ page.hero.link}}">{{ page.hero.copy }}</a>
+      <a class="btn btn__large btn--full btn--primary" href="{{ page.hero.link}}">{{ page.hero.copy }}</a>
     </div>
     {% endif %}
 

@@ -9,19 +9,48 @@
   background: $brand--grey;
 }
 
-.hero__content {
-  position: relative;
-}
-
-.hero__copy {
-  height: 100%;
-}
-
-  .hero__copy .btn {
-    // Remove border radius for hero call to action
-    border-bottom-right-radius: 0;
-    border-bottom-left-radius: 0;
+  .hero__content {
+    position: relative;
   }
+
+  @media screen and (min-width: 481px) {
+
+    .hero__content {
+      height: 175px;
+    }
+
+  }
+
+  .hero__copy {
+    height: 100%;
+  }
+
+  @media screen and (min-width:481px) {
+
+    .hero__copy {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+    }
+
+  }
+
+    .hero__copy .btn {
+      // Remove border radius for hero call to action
+      border-bottom-right-radius: 0;
+      border-bottom-left-radius: 0;
+    }
+
+    @media screen and (min-width: 481px) {
+
+        .hero__copy .btn {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+        }
+
+    }
 
   .block__logo {
     position: relative;
@@ -41,22 +70,9 @@
 
 @media screen and (min-width: 769px) {
 
-  .hero {
-    height: 282px;
-    //border-bottom-color: @brand--green-dark;
+  .hero__content {
+    height: 270px;
   }
-
-  .hero__copy {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-  }
-
-    .hero__copy .btn {
-      position: absolute;
-      bottom: 0;
-    }
 
   .block__logo {
     border-bottom-right-radius: 1rem;
@@ -67,4 +83,17 @@
       width: 100%;
     }
 
+}
+
+/**
+ * Hero Background Images
+ */
+
+.hero--image {
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+.hero--image--index {
+  background-image: url('../../media/hero/hero_index.jpg');
 }
