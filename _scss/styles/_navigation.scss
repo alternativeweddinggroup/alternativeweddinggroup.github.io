@@ -30,3 +30,10 @@
   text-transform: uppercase;
   color: $brand--gold;
 }
+@media screen and (min-width: 481px) {
+
+  .nav__main__list li {
+    margin-left: 1rem;
+  }
+
+}
