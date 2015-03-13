@@ -4,13 +4,13 @@
 
   <h3 class="ss1-ss4">Follow us on social:</h3>
 
+    {% if site.data.social %}
     <ul class="list list__social ss1-ss4">
-      <li class="facebook"><a href="#"><i class="icon sprite__social sprite__social--facebook"></i>/TheAlternativeWeddingGroup</a></li>
-      <li class="instagram"><a href="#"><i class="icon sprite__social sprite__social--instagram"></i>The Alternative Wedding Group</a></li>
-      <li class="twitter"><a href="#"><i class="icon sprite__social sprite__social--twitter"></i>@altweddinggroup</a></li>
-      <li class="wordpress"><a href="#"><i class="icon sprite__social sprite__social--wordpress"></i>thealternativeweddinggroup.wordpress.com</a></li>
+      {% for social in site.data.social %}
+      <li class="{{ social.type }}"><a class="outbound link" target="_blank" href="{{ social.url }}"><i class="icon sprite__social sprite__social--{{ social.type }}"></i>{{ social.name }}</a></li>
+      {% endfor %}
     </ul>
-
+    {% endif %}
   </section>
 
 </aside>

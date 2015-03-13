@@ -1,0 +1,23 @@
+[
+  {
+    "name": "The Alternative Wedding Group",
+    "type": "facebook",
+    "url": "https://www.facebook.com/TheAlternativeWedding"
+  },
+  {
+    "name": "The Alternative Wedding Group",
+    "type": "instagram",
+    "url": "https://instagram.com/thealternativeweddinggroup/"
+  },
+  {
+    "name": "@altweddinggroup",
+    "type": "twitter",
+    "url": "https://twitter.com/altweddinggroup"
+  },
+
+  {
+    "name": "thealternativeweddinggroup.wordpress.com",
+    "type": "wordpress",
+    "url": "http://thealternativeweddinggroup.wordpress.com"
+  }
+]
