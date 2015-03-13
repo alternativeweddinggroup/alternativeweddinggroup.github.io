@@ -37,10 +37,10 @@ $color--warning: $brand--orange-light;
 
 $body__font-size: 100%;
 $body__line-height: 1.5em;
-$body__font-family: 'Baskerville W01 Regular_705699', Baskerville, 'Baskerville Old Face', 'Times New Roman', serif;
+$body__font-family: 'L Baskerville W01', Baskerville, 'Baskerville Old Face', 'Times New Roman', serif;
 $body__color: $brand--black;
 
-$heading__font-family: 'UniversNW01-620CdBold', Univers, Helvetica, Verdana, sans-serif;
+$heading__font-family: 'Univers Next W01', Univers, Helvetica, Verdana, sans-serif;
 
 $code__font-family: Menlo, Monaco, "Courier New", monospace;
 
@@ -51,7 +51,7 @@ $code__font-family: Menlo, Monaco, "Courier New", monospace;
 $giga--margin: 0 0 2rem;
 $giga--font-size: 2.5rem;
 $giga--font-family: $body__font-family;
-$giga--font-weight: normal;
+$giga--font-weight: bold;
 $giga--line-height: 1.5em;
 $giga--color: $brand--gold;
 /*
@@ -74,7 +74,7 @@ $giga--color: $brand--gold;
 $h1--margin: 0 0 1rem;
 $h1--font-size: 1.5rem;
 $h1--font-family: $heading__font-family;
-$h1--font-weight: normal;
+$h1--font-weight: bold;
 $h1--line-height: 1.333em;
 $h1--color: $brand--gold;
 /*
@@ -88,7 +88,7 @@ $h1--color: $brand--gold;
 $h3--margin: 0 0 0.5rem;
 $h3--font-size: 1.5rem;
 $h3--font-family: $body__font-family;
-$h3--font-weight: normal;
+$h3--font-weight: bold;
 $h3--line-height: 1.5em;
 $h3--color: $brand--purple;
 /*
