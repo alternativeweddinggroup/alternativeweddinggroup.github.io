@@ -12,14 +12,24 @@ $brand--grey-dark: #444;
 $brand--white: #fff;
 
 $brand--purple: rgb(129,57,137);
+$brand--purple-light: rgb(128,101,131);
+$brand--purple-dark: rgb(97,57,103);
+
 $brand--orange: rgb(232,88,47);
+$brand--orange-light: rgb(238,130,99);
+$brand--orange-dark: rgb(174,66,35);
+
 $brand--gold: rgb(232,182,70);
+$brand--gold-light: rgb(238,200,116);
+$brand--gold-dark: rgb(174,136,52);
 
 //  Site Colours
 
 $color--primary: rgb(51,51,51);
 $color--interact: $brand--purple;
 $color--hover: $brand--gold;
+
+$color--warning: $brand--orange-light;
 
 //
 //  Typography
