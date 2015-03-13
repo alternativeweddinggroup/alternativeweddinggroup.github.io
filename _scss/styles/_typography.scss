@@ -1,0 +1,42 @@
+/**
+ * Typography
+ */
+
+.heading {
+  border-radius: 2px;
+  margin-bottom: 2em;
+}
+
+.heading img {
+  border-radius: 2px;
+}
+
+@media screen and (min-width: 481px){
+  .heading img {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+}
+
+.heading--about {
+  background-image: url('/static/gui/heading_image_about.jpg');
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: auto;
+}
+
+  .heading--about img {
+    background-color: $brand--purple;
+
+  }
+
+.heading--testimonial {
+  background-image: url('/static/gui/heading_image_testimonial.jpg');
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: auto;
+}
+
+  .heading--testimonial img {
+    background-color: $brand--gold;
+  }
