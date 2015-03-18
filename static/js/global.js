@@ -1,2 +1,4 @@
 ---
+sitemap:
+  exclude: true
 ---
