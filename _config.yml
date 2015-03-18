@@ -9,6 +9,12 @@ encoding: "utf-8"
 
 future: false
 
+## Collections
+
+collections:
+  services:
+    output: false
+
 ## Sass
 
 sass:
