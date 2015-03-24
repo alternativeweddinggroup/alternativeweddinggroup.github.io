@@ -1,7 +1,10 @@
 ---
 title: "Wedding Planning"
+name: wedding-planning
 heading: "Getting Married?"
-image: heading_wedding-planning.jpg
+image:
+  heading: heading_text_wedding-planning.svg
+  photo: heading_image_wedding-planning.jpg
 button:
   text: Enquire Now
   link: /contact/

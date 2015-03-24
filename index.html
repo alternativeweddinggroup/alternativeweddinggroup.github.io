@@ -46,7 +46,9 @@ sitemap:
 <section class="ss1-ss4 ls1-ls12 separator box__large">
 
     <header class="ss1-ss4 ls1-ls4">
-      <h2 class="no-margin"><img class="image__responsive" src="/static/gui/{{ service.image }}" alt="{{ service.title }}"></h2>
+      <h2 class="no-margin" style="width:100%";><img class="image__responsive {{ service.name }}" src="/static/gui/{{ service.image.heading }}" alt="{{ service.title }}"></h2>
+      <img class="image__responsive" src="/static/gui/{{ service.image.photo }}" alt="{{ service.title }}">
+      <div class="strip--{{ service.name }}"></div>
     </header>
 
     <article class="ss1-ss4 ls5-ls12">

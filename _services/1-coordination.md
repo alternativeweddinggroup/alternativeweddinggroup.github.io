@@ -1,7 +1,10 @@
 ---
-title: "Wedding Co-ordination"
+title: "Wedding Coordination"
+name: "wedding-coordination"
 heading: "Planned your own wedding but need on the day coordination?"
-image: heading_wedding-co-ordination.jpg
+image:
+  heading: heading_text_wedding-coordination.svg
+  photo: heading_image_wedding-coordination.jpg
 button:
   text: Enquire Now
   link: /contact/

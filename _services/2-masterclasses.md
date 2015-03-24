@@ -1,7 +1,10 @@
 ---
 title: "Wedding Masterclasses"
+name: wedding-masterclasses
 heading: "Want to plan your own wedding but not sure where to start?"
-image: heading_wedding-masterclass.jpg
+image:
+  heading: heading_text_wedding-masterclasses.svg
+  photo: heading_image_wedding-masterclasses.jpg
 button:
   text: Enquire Now
   link: /contact/

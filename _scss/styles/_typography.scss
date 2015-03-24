@@ -40,3 +40,55 @@
   .heading--testimonial img {
     background-color: $brand--gold;
   }
+
+/**
+ * Services Headings
+ */
+
+.wedding-planning {
+  display: block;
+  padding: 0.5rem 1rem;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  background: $brand--purple;
+}
+
+.strip--wedding-planning {
+  width: 100%;
+  height: 0.75rem;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  background: $brand--purple;
+}
+
+.wedding-coordination {
+  display: block;
+  padding: 0.5rem 1rem;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  background: $brand--gold;
+}
+
+.strip--wedding-coordination {
+  width: 100%;
+  height: 0.75rem;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  background: $brand--gold;
+}
+
+.wedding-masterclasses {
+  display: block;
+  padding: 0.5rem 1rem;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  background: $brand--purple;
+}
+
+.strip--wedding-masterclasses {
+  width: 100%;
+  height: 0.75rem;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  background: $brand--purple;
+}
