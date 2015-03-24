@@ -3,7 +3,7 @@ title: "Wedding Masterclasses"
 heading: "Want to plan your own wedding but not sure where to start?"
 image: heading_wedding-masterclass.jpg
 button:
-  text: Read More
+  text: Enquire Now
   link: /contact/
 ---
 

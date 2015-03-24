@@ -3,7 +3,7 @@ title: "Wedding Co-ordination"
 heading: "Planned your own wedding but need on the day coordination?"
 image: heading_wedding-co-ordination.jpg
 button:
-  text: Read More
+  text: Enquire Now
   link: /contact/
 ---
 

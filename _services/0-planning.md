@@ -3,7 +3,7 @@ title: "Wedding Planning"
 heading: "Getting Married?"
 image: heading_wedding-planning.jpg
 button:
-  text: Read More
+  text: Enquire Now
   link: /contact/
 ---
 
