@@ -1,45 +1,17 @@
 ---
 layout: default
-stylesheet:
-class: page__index
-
-title: Welcome
-permalink:
-meta:
-  keywords:
-    - "Alternative weddings"
-    - "cross cultural weddings"
-    - "wedding planning"
-    - "quirky weddings"
-    - "unique weddings"
-    - "wedding masterclasses"
-    - "expert wedding organisers"
-    - "on the day wedding coordination"
-    - "traditional weddings"
-    - "Nigerian weddings"
-    - "Jamaican weddings"
-    - "African weddings"
-    - "Caribbean weddings"
-    - "mixed race weddings"
-  description:
-  author:
-
-hero:
-  image: index
-  copy: "Get In Touch Today"
-  link: /contact/
-
-sitemap:
-  lastmod: 2015-01-29
-  priority: 0.5
-  changefreq: monthly
-  exclude:
 ---
 <div class="wrapper__sub">
 
+
+
   <header class="ss1-ss4 ls1-ls12">
-    <h1 class="giga">Alternative. Showstopping. Expert. Trustworthy.</h1>
+    <h1 class="giga">{{ page.title }}</h1>
   </header>
+
+  <article class="ss1-ss4 ls1-ls12 separator box__large">
+  {{ content }}
+  </article>
 
   {% if site.services %}
     {% for service in site.services %}

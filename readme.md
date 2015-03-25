@@ -49,6 +49,26 @@ During the Alpha/Beta stages, due to constant changes, documentation will be mai
 |- readme.md
 ```
 
+### Add a Service
+
+To add a service to the site create a new file inside the `_services` directory called `[position-number]-name.md` eg, `0-service-name.md`.
+
+Add the following to the top of the file:
+
+```
+---
+title:
+name:
+heading:
+image:
+  heading:
+  photo:
+button:
+  text:
+  link:
+---
+```
+
 ## Report Issues
 
 If you spot any issues please create a ticket via GitHub's Issue Tracker. If the issue is security related please use the contact information below.
