@@ -9,6 +9,9 @@ encoding: "utf-8"
 
 future: false
 
+exclude:
+ - readme.md
+
 ## Collections
 
 collections:
