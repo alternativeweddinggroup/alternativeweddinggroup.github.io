@@ -69,6 +69,19 @@ button:
 ---
 ```
 
+### Add a Testimonial
+
+To add a service to the site create a new file inside the `_testimonials` directory called `[position-number]-name.md` eg, `0-testimonial-name.md`.
+
+Add the following to the top of the file:
+
+```
+title:
+date:
+heading:
+image:
+```
+
 ## Report Issues
 
 If you spot any issues please create a ticket via GitHub's Issue Tracker. If the issue is security related please use the contact information below.

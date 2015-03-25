@@ -17,6 +17,8 @@ exclude:
 collections:
   services:
     output: false
+  testimonials:
+    output: false
 
 ## Sass
 

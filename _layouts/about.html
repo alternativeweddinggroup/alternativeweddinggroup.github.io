@@ -1,0 +1,40 @@
+---
+layout: default
+---
+<div class="wrapper__sub">
+
+  <article id="about" class="separator box__large">
+
+    <h1 class="grid heading heading--about">
+      <img class="ss1-ss4 ms1-ms2 ls1-ls4" src="/static/gui/heading_text_about.svg" alt="About">
+    </h1>
+
+    <h2 class="alpha">The Alternative Wedding Group believes that every couple should be able to have their dream day their way!</h2>
+
+    {{ content }}
+
+  </article>
+
+{% if site.testimonials %}<section>
+
+    <h1 class="grid heading heading--testimonial">
+      <img class="ss1-ss4 ms1-ms2 ls1-ls4" src="/static/gui/heading_text_testimonial.svg" alt="Testimonials">
+    </h1>
+
+    {% for testimonial in site.testimonials %}
+
+    <article class="grid separator box testimonial">
+      <aside class="ss1-ss4 ms1-ms2 ls1-ls4">
+        <img class="image__responsive testimonial__image" src="/media/testimonials/{{ testimonial.image }}" alt="">
+      </aside>
+      <blockquote class="ss1-ss4 ms3-ms6 ls5-ls12" itemscope itemtype="http://data-vocabulary.org/Review">
+        <span itemprop="summary">{{ testimonial.content }}</span> <strong><span itemprop="reviewer">{{ testimonial.title }}</span></strong>&nbsp;(<time itemprop="dtreviewed" datetime="{{ testimonial.date }}">{{ testimonial.date }}</time>)
+      </blockquote>
+    </article>
+
+    {% endfor %}
+</section>
+
+{% endif %}
+
+</div>
