@@ -10,11 +10,14 @@ button:
   link: /contact/
 ---
 
-Want to plan your own wedding but not sure where to start?  Planning an alternative, quirky or cross cultural wedding day? Our interactive sessions provide you with all of the necessary information and tools needed to plan your perfect wedding. We will go through each step of wedding planning from engagement to check list for the night before the wedding.
+Have specific ideas of how your day should go but feeling overwhelmed by the process? D.I.Y bride? Then book onto our next masterclass.
 
-Learn how to create a realistic wedding budget, what mistakes not to make when booking a venue, how to find the perfect caterer, how to keep on top of all of your tasks and everything else you need to know. There is also a section focused specifically on cross cultural weddings, how to integrate cultural traditions and cultural sensitivities.
+Our interactive sessions provide you with all of the necessary information and tools required to plan your perfect wedding. You will receive expert advice from the experts in wedding planning. You will be walked through every step of the wedding planning process from engagement announcements all the way through to night before the big day checklist.
+
+Learn how to create a realistic wedding budget, what mistakes not to make when booking a venue, how to find the perfect caterer, how to keep on top of all of your tasks and everything else you need to know. With guest presentations and Q & A sessions with key suppliers, it is the perfect opportunity to ensure you understand the entire process.
 
 We will also provide you with a list of recommended suppliers tailored specifically to the type of wedding you are planning.
-Expect to receive guidance and material regarding marriage preparation, stress management, dealing with wedding fallouts and more. Upon completion of our master-class you will be fully equipped for the adventures ahead.
 
-If you book a master-class, you will receive a discount on wedding planning and coordination services.
+We also have an additional consultancy session if you are planning an inter-racial or cross cultural wedding. Find out how best to integrate cultural traditions into your wedding, cultural sensitivities to be aware of and more
+
+Upon completion of our masterclass you will feel confident and adequately equipped to start the exciting adventure that is planning your wedding.
